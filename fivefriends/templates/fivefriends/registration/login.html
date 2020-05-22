@@ -1,0 +1,9 @@
+{% extends 'fivefriends/fivefriends_base.html' %}
+
+{% block title %}Login Page{% endblock title %}
+
+{% block content %}
+    <div class="login-btn">
+      <a href="{% url 'social:begin' 'vk-oauth2' %}">Login with vk</a>
+    </div>
+{% endblock content %}

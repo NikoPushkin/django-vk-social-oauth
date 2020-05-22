@@ -1,0 +1,65 @@
+.login-btn {
+  display: grid;
+  margin-top: 370px;
+  justify-content: center;
+}
+
+.logout-btn {
+  display: grid;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.login-btn a, .logout-btn button {
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  padding: 20px;
+  width: 380px;
+  color: white;
+  font-size: 30px;
+  background-color: blue
+}
+
+.login-btn a:hover, .logout-btn button:hover {
+  color: blue;
+  background-color: white;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.user-info, .friends-info {
+  margin-top: 20px;
+  font-size: 30px;
+  display: grid;
+  justify-content: center;
+  grid-template-rows: auto auto;
+  grid-row-gap: 0px;
+}
+
+.declaration {
+  display: grid;
+  justify-content: center;
+  border: none;
+  padding: 20px;
+  width: 380px;
+  background-color: blue;
+  color: white;
+}
+
+.name-field {
+  display: grid;
+  justify-content: center;
+  border: none;
+  padding: 20px;
+  color: blue;
+}
+
+.friends-list {
+  display: grid;
+  justify-content: center;
+  border: none;
+  padding: 20px;
+  background-color: white;
+  color: black;
+}

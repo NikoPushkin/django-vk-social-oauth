@@ -1,0 +1,26 @@
+{% extends 'fivefriends/fivefriends_base.html' %}
+
+{% block title %}
+    Result Page
+{% endblock %}
+
+{% block content %}
+
+  <div class="user-info" style="margin-top: 100px;">
+    <div class="declaration">
+      {{ user.first_name }} {{ user.last_name }}
+    </div>
+  </div>
+
+  <div class="friends-info">
+    <div class="declaration">
+      Friends:
+    </div>
+    {% for friend in friends %}
+      <div class="friends-list">
+        {{ friend }}
+      </div>
+    {% endfor %}
+  </div>
+
+{% endblock %}
